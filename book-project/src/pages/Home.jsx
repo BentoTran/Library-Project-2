@@ -92,7 +92,8 @@ export default function Home() {
                         />
                     </div>
 
-                    <Button type="submit" disabled={loading}>
+                    <Button type="submit"
+                            disabled={loading}>
                         Search
                     </Button>
 
